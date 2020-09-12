@@ -3,9 +3,6 @@ var speed,weight;
 var two ;
 var three ;
 var four ;
-var car2;
-var car3 ;
-var car4 ;
 var wall2 ;
 var wall3 ;
 var wall4 ;
@@ -21,9 +18,6 @@ function setup() {
   wall4 = createSprite(1060,350,20,30);
 
  car1 = createSprite(1041,45,20,10);
- car2 = createSprite(1041,130,20,10);
- car3 = createSprite(1041,235,20,10);
-  car4 = createSprite(1041,350,20,10);
 
  
 car1.velocityX =speed;
